@@ -5,6 +5,7 @@ import Button from './components/ch03/Button';
 import Form from './components/ch03/Form';
 import Title1 from './components/ch03/Title1';
 import Title2 from './components/ch03/Title2';
+import Title3 from './components/ch03/Title3';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Title1 />
         <Title2 title="React.js" author="Abbes"/>
         <Title2 title="Javascript Moderne" author="Abbes"/>
+        <Title3 title="Nodejs" author= "Abbes" />
       </header>
     </div>
   );
