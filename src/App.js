@@ -6,6 +6,8 @@ import Form from './components/ch03/Form';
 import Title1 from './components/ch03/Title1';
 import Title2 from './components/ch03/Title2';
 import Title3 from './components/ch03/Title3';
+import Book1 from './components/ch03/Book1';
+import ColoredBook from './components/ch03/ColoredBook';
 
 function App() {
   return (
@@ -33,6 +35,17 @@ function App() {
         <Title2 title="React.js" author="Abbes"/>
         <Title2 title="Javascript Moderne" author="Abbes"/>
         <Title3 title="Nodejs" author= "Abbes" />
+        <Book1>
+          <Title3 title="Composant enfant" author= "Alex" />
+          <Title3 title="Composant enfant" author= "Alex" />
+          <Title2 title="Javascript Moderne" author="Abbes"/>
+        </Book1>
+        <ColoredBook color="red">
+          <Title2 title="ColoredBook" author="Abbes"/>
+        </ColoredBook>
+        <ColoredBook color="green">
+          <Title2 title="ColoredBook" author="Abbes"/>
+        </ColoredBook>
       </header>
     </div>
   );
