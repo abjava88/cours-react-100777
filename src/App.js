@@ -3,6 +3,8 @@ import './App.css';
 import Title from './components/ch03/Title';
 import Button from './components/ch03/Button';
 import Form from './components/ch03/Form';
+import Title1 from './components/ch03/Title1';
+import Title2 from './components/ch03/Title2';
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
         >
           Learn React
         </a>
+
+        <Title1 />
+        <Title2 title="React.js" author="Abbes"/>
+        <Title2 title="Javascript Moderne" author="Abbes"/>
       </header>
     </div>
   );
