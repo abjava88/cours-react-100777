@@ -16,6 +16,9 @@ const sum = (a,b,c,d) => {
 
 console.log(sum(...numbers));
 
+/*
+Solution exercice chapitre 02
+*/
 
 const concatenate = (obj1, obj2) => {
     return {
