@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Book2 = ({children, color}) => {
+const ColoredBook = ({children, color}) => {
   return (
     <div style={{color: color}}>
       {children}
@@ -8,4 +8,4 @@ const Book2 = ({children, color}) => {
   )
 }
 
-export default Book2
+export default ColoredBook

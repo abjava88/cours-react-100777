@@ -8,6 +8,8 @@ import Title2 from './components/ch03/Title2';
 import Title3 from './components/ch03/Title3';
 import Book1 from './components/ch03/Book1';
 import ColoredBook from './components/ch03/ColoredBook';
+import Profile from './components/ch03/Profile';
+import { Book2 } from './components/ch03/Book2';
 
 function App() {
   return (
@@ -46,6 +48,13 @@ function App() {
         <ColoredBook color="green">
           <Title2 title="ColoredBook" author="Abbes"/>
         </ColoredBook>
+        <Profile />
+        <Book2 isNew={true}>
+          <Title3 title="New book 1" author="Jason" />
+        </Book2>
+        <Book2 isNew={false}>
+          <Title3 title="Old book 1" author="Jason" />
+        </Book2>
       </header>
     </div>
   );
