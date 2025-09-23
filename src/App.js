@@ -10,6 +10,7 @@ import Book1 from './components/ch03/Book1';
 import ColoredBook from './components/ch03/ColoredBook';
 import Profile from './components/ch03/Profile';
 import { Book2 } from './components/ch03/Book2';
+import TodayDate from './components/ch03/TodayDate';
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
         <Book2 isNew={false}>
           <Title3 title="Old book 1" author="Jason" />
         </Book2>
+        <TodayDate locale="fr-FR" />
       </header>
     </div>
   );
