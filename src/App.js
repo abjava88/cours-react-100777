@@ -12,6 +12,7 @@ import Profile from './components/ch03/Profile';
 import { Book2 } from './components/ch03/Book2';
 import TodayDate from './components/ch03/TodayDate';
 import Counter from './components/ch04/Counter';
+import PageCounter from './components/ch04/PageCounter';
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
         </Book2>
         <TodayDate locale="fr-FR" />
         <Counter />
+        <PageCounter />
       </header>
     </div>
   );
