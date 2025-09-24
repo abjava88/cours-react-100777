@@ -13,6 +13,8 @@ import { Book2 } from './components/ch03/Book2';
 import TodayDate from './components/ch03/TodayDate';
 import Counter from './components/ch04/Counter';
 import PageCounter from './components/ch04/PageCounter';
+import ToggleLight from './components/ch04/ToggleLight';
+import ToggleLightPlus from './components/ch04/ToggleLightPlus';
 
 function App() {
   return (
@@ -61,6 +63,8 @@ function App() {
         <TodayDate locale="fr-FR" />
         <Counter />
         <PageCounter />
+        <ToggleLight />
+        <ToggleLightPlus />
       </header>
     </div>
   );
