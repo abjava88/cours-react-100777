@@ -17,6 +17,9 @@ import ToggleLight from './components/ch04/ToggleLight';
 import ToggleLightPlus from './components/ch04/ToggleLightPlus';
 import Counter2 from './components/ch04/Counter2';
 import DataFetcher from './components/ch04/DataFetcher';
+import UserProvider from './components/ch04/UserProvider';
+import UserInfo from './components/ch04/UserInfo';
+import UserControls from './components/ch04/UserControls';
 
 function App() {
   return (
@@ -69,6 +72,10 @@ function App() {
         <ToggleLight />
         <ToggleLightPlus />
         <Counter2 />
+        <UserProvider>
+          <UserInfo />
+          <UserControls />
+        </UserProvider>
       </header>
     </div>
   );
