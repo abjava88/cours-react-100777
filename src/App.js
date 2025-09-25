@@ -15,11 +15,14 @@ import Counter from './components/ch04/Counter';
 import PageCounter from './components/ch04/PageCounter';
 import ToggleLight from './components/ch04/ToggleLight';
 import ToggleLightPlus from './components/ch04/ToggleLightPlus';
+import Counter2 from './components/ch04/Counter2';
+import DataFetcher from './components/ch04/DataFetcher';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <DataFetcher />
         <Title />
         <div>
           <Button />
@@ -65,6 +68,7 @@ function App() {
         <PageCounter />
         <ToggleLight />
         <ToggleLightPlus />
+        <Counter2 />
       </header>
     </div>
   );
