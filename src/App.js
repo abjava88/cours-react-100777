@@ -23,6 +23,7 @@ import UserControls from "./components/ch04/UserControls";
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./components/ch05/Home";
 import About from "./components/ch05/About";
+import Contact from "./components/ch05/Contact";
 
 function App() {
   return (
@@ -92,9 +93,13 @@ function App() {
               </ul>
             </nav>
             <hr />
+            <Link to="/contact">
+              <button>Go to Contact</button>
+            </Link>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </div>
         </Router>
