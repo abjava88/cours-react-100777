@@ -24,7 +24,18 @@ import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./components/ch05/Home";
 import About from "./components/ch05/About";
 import Contact from "./components/ch05/Contact";
+import UserList from "./components/ch05/UserList";
 
+
+const usersList = [
+  { id: 1, name: "John" },
+  { id: 2, name: "Jane" },
+  { id: 3, name: "Alice" },
+  { id: 4, name: "Bob" },
+  { id: 5, name: "Abbes" },
+  { id: 6, name: "Aron" },
+  { id: 7, name: "Abram" },
+];
 function App() {
   return (
     <div className="App">
@@ -103,6 +114,7 @@ function App() {
             </Routes>
           </div>
         </Router>
+        <UserList users={usersList} />
       </header>
     </div>
   );
