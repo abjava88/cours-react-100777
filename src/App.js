@@ -25,6 +25,8 @@ import Home from "./components/ch05/Home";
 import About from "./components/ch05/About";
 import Contact from "./components/ch05/Contact";
 import UserList from "./components/ch05/UserList";
+import ThemeProvider from "./components/ch05/ThemeProvider";
+import ThemedButton from "./components/ch05/ThemedButton";
 
 
 const usersList = [
@@ -115,6 +117,9 @@ function App() {
           </div>
         </Router>
         <UserList users={usersList} />
+        <ThemeProvider>
+          <ThemedButton />
+        </ThemeProvider>
       </header>
     </div>
   );
