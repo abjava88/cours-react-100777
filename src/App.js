@@ -27,6 +27,7 @@ import Contact from "./components/ch05/Contact";
 import UserList from "./components/ch05/UserList";
 import ThemeProvider from "./components/ch05/ThemeProvider";
 import ThemedButton from "./components/ch05/ThemedButton";
+import Pagination from "./components/ch05/Pagination";
 
 
 const usersList = [
@@ -119,7 +120,10 @@ function App() {
         <UserList users={usersList} />
         <ThemeProvider>
           <ThemedButton />
+          <ThemedButton />
+          <ThemedButton />
         </ThemeProvider>
+        <Pagination />
       </header>
     </div>
   );
