@@ -28,6 +28,7 @@ import UserList from "./components/ch05/UserList";
 import ThemeProvider from "./components/ch05/ThemeProvider";
 import ThemedButton from "./components/ch05/ThemedButton";
 import Pagination from "./components/ch05/Pagination";
+import SimpleForm from "./components/ch06/SimpleForm";
 
 
 const usersList = [
@@ -124,6 +125,7 @@ function App() {
           <ThemedButton />
         </ThemeProvider>
         <Pagination />
+        <SimpleForm />
       </header>
     </div>
   );
