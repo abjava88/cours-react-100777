@@ -30,6 +30,7 @@ import ThemedButton from "./components/ch05/ThemedButton";
 import Pagination from "./components/ch05/Pagination";
 import SimpleForm from "./components/ch06/SimpleForm";
 import FocusInput from "./components/ch06/FocusInput";
+import CompleteForm from "./components/ch06/CompleteForm";
 
 
 const usersList = [
@@ -128,6 +129,7 @@ function App() {
         <Pagination />
         <SimpleForm />
         <FocusInput />
+        <CompleteForm />
       </header>
     </div>
   );
