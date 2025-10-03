@@ -31,7 +31,7 @@ import Pagination from "./components/ch05/Pagination";
 import SimpleForm from "./components/ch06/SimpleForm";
 import FocusInput from "./components/ch06/FocusInput";
 import CompleteForm from "./components/ch06/CompleteForm";
-
+import Posts from "./components/ch07/Post/Posts";
 
 const usersList = [
   { id: 1, name: "John" },
@@ -45,7 +45,7 @@ const usersList = [
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/*<header className="App-header">
         <DataFetcher />
         <Title />
         <div>
@@ -130,7 +130,8 @@ function App() {
         <SimpleForm />
         <FocusInput />
         <CompleteForm />
-      </header>
+      </header> */}
+      <Posts />
     </div>
   );
 }
